@@ -9,8 +9,8 @@ class MinMax {
   late int rand;
 
   MinMax()
-      : min = int.parse(Platform.environment['MIN'] ?? '4'),
-        max = int.parse(Platform.environment['MAX'] ?? '40') {
+      : min = int.parse(Platform.environment['MIN'] ?? '200'),
+        max = int.parse(Platform.environment['MAX'] ?? '300') {
     var random = Random();
     rand = random.nextInt(max - min + 1) + min;
   }

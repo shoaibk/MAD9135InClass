@@ -90,7 +90,7 @@ void main() async {
     }
 
     var itemCount = jsonResponse.length;
-    print('Number of books about http: $itemCount.');
+    print('Number of users: $itemCount.');
   } else {
     print('Request failed with status: ${response.statusCode}.');
   }

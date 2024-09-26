@@ -6,11 +6,6 @@ class Student {
   late String name;
   late int id;
 
-  // Student(String name, int id) {
-  //   this.name = name;
-  //   this.id = id;
-  // }
-
   Student(this.name, this.id) {
     //increment the static count
     Student.count++;
